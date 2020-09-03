@@ -47,30 +47,6 @@ class Profile extends Component {
                     </div>
                 </nav>
                 <nav class="level is-mobile">
-                    <div class="level-item has-text-centered is-marginless">
-                        <div>
-                            <p class="heading">{counter.post.title}</p>
-                            <a href={counter.post.url}>
-                                <p class="title">{counter.post.count}</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="level-item has-text-centered is-marginless">
-                        <div>
-                            <p class="heading">{counter.category.title}</p>
-                            <a href={counter.category.url}>
-                                <p class="title">{counter.category.count}</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="level-item has-text-centered is-marginless">
-                        <div>
-                            <p class="heading">{counter.tag.title}</p>
-                            <a href={counter.tag.url}>
-                                <p class="title">{counter.tag.count}</p>
-                            </a>
-                        </div>
-                    </div>
                 </nav>
                 {followLink ? <div class="level">
                     <a class="level-item button is-primary is-rounded" href={followLink} target="_blank" rel="noopener">{followTitle}</a>
